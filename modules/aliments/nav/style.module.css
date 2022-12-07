@@ -1,0 +1,32 @@
+.navAliment {
+    list-style-type: none;
+    display: flex;
+    max-width: 800px;
+    margin: 10px auto 0;
+    background-color: var(--grey);
+}
+.navAliment :first-child {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0;
+    cursor: pointer;
+    color: var(--white);
+}
+.navAliment :nth-child(2) {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 0;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.isActive {
+    background-color: var(--greyDark);
+    font-weight: 700;
+}
+.alimentContainer {
+    margin: 0 5px;
+    min-height: 57.6vh;
+}

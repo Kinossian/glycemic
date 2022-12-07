@@ -1,0 +1,19 @@
+.alimentCardContainer {
+    background-color: var(--greyDark);
+    border: 1px solid var(--greyDark);
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.noAliment {
+    padding: 120px 0;
+    color: var(--white);
+    font-size: 2rem;
+    text-align: center;
+}
+.alimentCardContainer strong {
+    color: var(--blue1);
+    font-size: 1rem;
+}

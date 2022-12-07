@@ -1,0 +1,49 @@
+.meal {
+    position: relative;
+    top: -30px;
+    left: 0;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--grey);
+    padding: 40px 5px;
+    box-shadow: 0px 8px 20px var(--black);
+}
+.button {
+    box-shadow: 0px 8px 10px var(--black);
+    z-index: 10;
+    position: relative;
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    height: 100%;
+    border: 5px solid var(--white);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 5px;
+    margin: 5px auto;
+    font-size: 1.5em;
+    text-shadow: 0 0 1px black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-color: var(--meal-btn-bg, var(--blueSky1));
+}
+.breakfast {
+    --meal-btn-bg: var(--blueSky1);
+}
+.lunch {
+    --meal-btn-bg: var(--blueSky2);
+}
+.snack {
+    --meal-btn-bg: var(--blueSky3);
+}
+.diner {
+    --meal-btn-bg: var(--blueSky4);
+}
+@media screen and (max-width: 750px) {
+    .meal {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

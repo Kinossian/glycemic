@@ -1,0 +1,90 @@
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+#__next {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+main {
+    flex-grow: 1;
+}
+
+/* :root {
+    --blue1: #3399e5;
+    --black: #1a1a1a;
+    --white: #eaeaea;
+    --grey: #808080;
+    --greyDark: #575757;
+    --red: #930808;
+    --green: #098e09;
+    --blueSky1: #0c76f0;
+    --blueSky2: #2559c1;
+    --blueSky3: #284297;
+    --blueSky4: #1d3d71;
+    --blueSky5: #1d2d48;
+} */
+/* :root {
+    --blue1: #3399e5;
+    --black: #1a1a1a;
+    --white: #eaeaea;
+    --grey: #808080;
+    --greyDark: #575757;
+    --red: #930808;
+    --green: #04b704;
+    --blueSky1: #15e3e6;
+    --blueSky2: #25bfc1;
+    --blueSky3: #289597;
+    --blueSky4: #1d7071;
+    --blueSky5: #1d4748;
+} */
+:root {
+    --blue1: #3399e5;
+    --black: #1a1a1a;
+    --white: #eaeaea;
+    --grey: #808080;
+    --greyDark: #575757;
+    --red: #930808;
+    --green: #098e09;
+    --blueSky1: #0c76f0;
+    --blueSky2: #2559c1;
+    --blueSky3: #284297;
+    --blueSky4: #1d3d71;
+    --blueSky5: #1d2d48;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button {
+    -o-appearance: none;
+    margin: 0;
+}

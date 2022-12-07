@@ -1,0 +1,18 @@
+.logoContainer {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: flex;
+    font-size: 7rem;
+    align-items: center;
+    padding: 5px 0 10px;
+    line-height: 6rem;
+    color: var(--blue1);
+}
+.logo span {
+    position: relative;
+    bottom: 0px;
+    left: -5px;
+    font-size: 2rem;
+}

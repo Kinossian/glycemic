@@ -1,0 +1,44 @@
+.statDayContainer {
+    text-align: center;
+}
+.date {
+    font-size: 2rem;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 900;
+    border: 2px solid var(--blue1);
+    box-shadow: 0 0 10px var(--black);
+}
+.statDayContainer h3 {
+    font-size: 3rem;
+    color: var(--white);
+    text-shadow: 0 0 5px var(--black);
+}
+.mealType {
+    background-color: var(--blue1);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px var(--black);
+}
+.insulineRapide {
+    font-size: 1.5rem;
+    color: var(--black);
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.insulineRapide span {
+    color: var(--red);
+    font-size: 2rem;
+    margin-left: 5px;
+    border: 1px solid black;
+    padding: 0 5px;
+    border-radius: 5px;
+}

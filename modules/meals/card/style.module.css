@@ -1,0 +1,23 @@
+.summary {
+    border-bottom: 2px dashed var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin: 0 40px;
+    text-transform: capitalize;
+}
+.summary:last-child {
+    border: none;
+}
+.info {
+    background-color: var(--meal-btn-bg, var(--blueSky2));
+    color: var(--white);
+    text-shadow: 0 0 2px black;
+    margin: 10px auto 0;
+    padding: 40px 0;
+    max-width: 600px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    text-align: center;
+}

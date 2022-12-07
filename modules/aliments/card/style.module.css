@@ -1,0 +1,69 @@
+.alimentCard {
+    background-color: var(--black);
+    color: var(--white);
+    margin: 5px 0;
+    width: 800px;
+    list-style-type: none;
+}
+.alimentCardHeader {
+    border: 1px solid var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin: 6px;
+    border-radius: 5px;
+}
+.alimentCardHeader h4 {
+    max-width: 210px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.alimentCardButton {
+    display: flex;
+}
+.alimentCardButton :nth-child(1) {
+    font-weight: 900;
+    background-color: var(--blue1);
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.alimentCardMacroContainer {
+    background-color: var(--blue1);
+    margin: 6px;
+    border-radius: 10px;
+}
+
+#containerOne {
+    padding: 15px;
+    font-weight: 100;
+}
+#containerOne :first-child {
+    font-style: italic;
+}
+.macroContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border-bottom: 1px dotted var(--white);
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+#containerLast {
+    border: none;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 400px) {
+    .alimentCardHeader h4 {
+    }
+}
+@media screen and (min-width: 800px) {
+    .alimentCardButton :nth-child(1) {
+        width: 200px;
+    }
+}

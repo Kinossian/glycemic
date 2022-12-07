@@ -1,0 +1,88 @@
+.mealForm {
+    display: flex;
+    flex-direction: column;
+}
+.mealFormHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+.mealName {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    border-radius: 8px;
+    border: 3px solid var(--green);
+}
+
+.grammesContainer {
+    height: 3rem;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 0 0 0;
+    min-width: 100px;
+    max-width: 100px;
+}
+.grammesContainer label {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#grammes {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 3px solid var(--green);
+    padding: 0 5px;
+    font-size: 1.5rem;
+}
+.searchResult {
+    background-color: var(--white);
+    /* padding: 10px; */
+}
+.searchResult p {
+    cursor: pointer;
+    padding: 10px;
+}
+.searchResult p:hover {
+    background-color: var(--green);
+    position: relative;
+}
+.searchResult p:hover::after {
+    content: "Choisir";
+    position: absolute;
+    right: 10px;
+    color: var(--white);
+    font-size: 1rem;
+}
+.mealForm input[type="submit"] {
+    width: 220px;
+    height: 3rem;
+    border-radius: 8px;
+    border: 2px solid var(--black);
+    background-color: var(--green);
+    color: var(--white);
+    margin: 5px auto;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.mealForm input[type="submit"]:disabled {
+    opacity: 0.2;
+}
+@media screen and (min-width: 800px) {
+    .mealForm {
+        /* justify-content: space-between;
+        flex-direction: row; */
+        padding: 0 80px;
+    }
+    .mealForm input[type="submit"] {
+        /* margin: 0 5px;
+        width: 120px; */
+    }
+    .mealName {
+        /* width: 600px; */
+        /* width: 100%; */
+    }
+}

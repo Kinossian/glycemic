@@ -1,0 +1,20 @@
+.totalGlucideContainer {
+    max-width: 400px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    background-color: var(--grey);
+}
+.totalGlucide {
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 40px;
+    font-size: 2rem;
+    text-shadow: 0 0 2px black;
+    color: var(--white);
+}
+.totalGlucide span strong {
+    font-weight: 900;
+    color: var(--red);
+}

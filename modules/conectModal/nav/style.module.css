@@ -1,0 +1,29 @@
+.conectModalContainer {
+}
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 60px;
+    background-color: var(--black);
+    padding-bottom: 10px;
+}
+.buttonContainer button {
+    color: var(--white);
+    background-color: var(--grey);
+    font-weight: 600;
+    width: 200px;
+    height: 100%;
+    border: 5px solid var(--white);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding: 15px 5px;
+    margin: 0 1px;
+}
+
+.isActive {
+    font-weight: 900 !important;
+    border-color: var(--blue1) !important;
+}
