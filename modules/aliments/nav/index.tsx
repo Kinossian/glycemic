@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import AddAliment from "../add";
 import ListAliment from "../list";
-import style, { isActive } from "./style.module.css";
+import style from "./style.module.css";
 
 const AlimentsNav = () => {
     const [alimentNav, setAlimentNav] = useState(true);
@@ -9,13 +9,13 @@ const AlimentsNav = () => {
         <div className={style.alimentContainer}>
             <ul className={style.navAliment}>
                 <li
-                    className={alimentNav ? isActive : ""}
+                    className={alimentNav ? style.isActive : ""}
                     onClick={() => setAlimentNav(true)}
                 >
                     ADD
                 </li>
                 <li
-                    className={alimentNav ? "" : isActive}
+                    className={alimentNav ? "" : style.isActive}
                     onClick={() => setAlimentNav(false)}
                 >
                     LIST
